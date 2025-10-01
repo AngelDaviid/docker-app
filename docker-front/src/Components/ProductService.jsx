@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Configuración base de axios
-const API_BASE_URL = 'http://localhost:3000' // Ajusta esta URL según tu API de NestJS
+const API_BASE_URL = 'https://docker-app-jz81.onrender.com' // Ajusta esta URL según tu API de NestJS
 const api = axios.create({
     baseURL: API_BASE_URL,
     headers: {
